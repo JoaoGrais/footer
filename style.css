@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --p: #1d1d20;
+    --s: #03a9f4;
+    --t: #ffffff;
+}
+
+header{
+    text-align: center;
+    background-color: darkorange;
+    height: 10vh;
+}
+
+.site{
+    display: flex;
+    background-color: cyan;
+    height: 90vh;
+}
+
+
+
+
+/* minha parte de site!!!!!!!! */
+
+
+
+
+footer{
+    margin-top: 0vh;
+    background-color: var(--p);
+    height: 140vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 380px;
+    height: 220px;
+}
+
+.child1{
+    height: 45.1vh;
+    width: 20vw;
+    color: var(--t);
+}
+
+.child2{
+    height: 45.1vh;
+    width: 20vw;
+}
+
+.child3{
+    height: 43vh;
+    width: 30vw;
+    background-color: var(--s);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.child1 h1{
+    text-align: center;
+    color: var(--s);
+}
+
+.child1 h3{
+    margin-top: 2px;
+    text-align: center;
+}
+
+.child2 h1{
+    text-align: center;
+    color: var(--s);
+}
+
+.child2 h3{
+    margin-top: 2px;
+}
+
+.child3 h1{
+    text-align: center;
+}
+
+.child4 h1{
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+.barrinha{
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.inst {
+    font-size: 19px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes a{
+    color: var(--t);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* formulario */
+
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    width: 100%;
+    max-width: 560px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea{
+    height: 100px;
+}
+
+
+.barrinha2{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.ed{
+    width: 33vw;
+    color: var(--t);
+    font-size: 17px;
+}
