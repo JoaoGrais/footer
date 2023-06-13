@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: darkorange;
+    height: 10vh;
+}
+
+.site {
+    display: flex;
+    background-color: cyan;
+    height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* minha parte de site!!!!!!!! */
+
+
+
+:root {
+    --p: #1d1d20;
+    --s: #03a9f4;
+    --t: #ffffff;
+}
+
+
+footer {
+    margin-top: 0vh;
+    background-color: var(--p);
+    height: 200vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.child1 {
+    height: 45.1vh;
+    width: 20vw;
+    color: var(--t);
+}
+
+.child2 {
+    height: 45.1vh;
+    width: 20vw;
+}
+
+.child3 {
+    height: 43vh;
+    width: 30vw;
+    background-color: var(--s);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.child1 h1 {
+    text-align: center;
+    color: var(--s);
+}
+
+.child1 h3 {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.child2 h1 {
+    text-align: center;
+    color: var(--s);
+}
+
+.child2 h3 {
+    margin-top: 2px;
+}
+
+.child3 h1 {
+    text-align: center;
+}
+
+.child4 h1 {
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    text-align: center;
+    width: 60vw;
+    height: 90vh;
+}
+
+.barrinha {
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.inst {
+    font-size: 19px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes a {
+    color: var(--t);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* formulario */
+
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    width: 100%;
+    max-width: 560px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+.barrinha2 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.ed {
+    width: 33vw;
+    color: var(--t);
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    footer {
+        height: 225vh;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child1 {
+        height: 25.1vh;
+        width: 50vw;
+        color: var(--t);
+        text-align: center;
+        margin-bottom: 20vh;
+    }
+    
+    .child2 {
+        height: 25.1vh;
+        width: 50vw;
+        text-align: center;
+        margin-bottom: 15vh;
+    }
+    
+    .child3 {
+        height: 33vh;
+        width: 50vw;
+        background-color: var(--s);
+        padding: 10px;
+        border-radius: 10px;
+        padding: 0;
+    }
+
+    .child1 h3 {
+        margin-top: 0;
+    }
+
+    .child2 h3 {
+        margin-top: 0px;
+    }
+
+    .child3 input {
+        margin-top: 5px;
+    }
+
+    .contato {
+        width: 100%;
+        max-width: 560px;
+    }
+
+    .content{
+        padding: 4px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding-top: 0vh;
+        margin-bottom: 0vh;
+    }
+
+    .logo img{
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .barrinha {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        margin-right: 0vw;
+        margin-left: 0vw;
+    }
+
+    .field {
+        padding: 0px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .redes a {
+        margin-top: 0;
+    }
+
+    .field {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .barrinha2 {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        margin-right: 0vw;
+        margin-left: 0vw;
+    }
+    
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ed {
+        margin-top: 5vh;
+        width: 75vw;
+        color: var(--t);
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+
+    footer{
+        height: 210vh;
+    }
+
+    .child3 {
+        height: 36vh;
+        width: 60vw;
+    }
+
+    .child3 input{
+        margin-top: 5px;
+    }
+
+    .logo img{
+        width: 120vw;
+        height: 50vh;
+    }
+
+    .ed {
+        width: 90vw;
+        color: var(--t);
+        font-size: 13px;
+        text-align: center;
+    }
+}
